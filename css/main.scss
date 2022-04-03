@@ -1,0 +1,29 @@
+$containerWidth: 1100px;
+$baseFontSize: 14px;
+
+//breakpoints
+
+@import "./components/media.scss";
+
+$tablets: 768px;
+$phones: 480px;
+
+
+
+
+//z-idexes
+$z-fixed-menu: 100;
+
+
+
+//normalsize
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import"layout";
+
+//components
+@import"./components/hero.scss";
+@import"./components/section.scss";
+@import"./components/last.scss";

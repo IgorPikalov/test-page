@@ -1,0 +1,324 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+html {
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.42;
+  font-family: "Arial";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0rem;
+  position: relative;
+}
+
+.maincontent {
+  height: 100%;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  will-change: transform;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 100%;
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul, .li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.header {
+  margin: 1.4285714286rem 0rem 3.5714285714rem 0rem;
+  height: 14.2857142857rem;
+  border-bottom: 2px solid #505050;
+  padding: 0rem 0rem 15rem 0rem;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 14.2857142857rem;
+}
+
+.header__item-1 {
+  background-color: #505050;
+  width: 10.7142857143rem;
+  margin: 0rem 3.5714285714rem 0rem 0rem;
+}
+
+.header__item-2 {
+  background-color: #505050;
+  width: 28.5714285714rem;
+}
+
+.header__item-3 {
+  background-color: #505050;
+  width: 35.7142857143rem;
+  margin: 0rem 0rem 0rem 3.5714285714rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header__item {
+  color: white;
+  padding: 0.7142857143rem 1.0714285714rem 0rem 0rem;
+}
+
+.header__phone {
+  text-decoration: none;
+}
+
+.section__desc {
+  max-width: 16%;
+  max-height: 27.1428571429rem;
+  background-color: #505050;
+}
+
+.section__item {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.section__list {
+  color: white;
+  padding: 0.4285714286rem 0rem 0rem 0.7142857143rem;
+}
+
+.section__list--title {
+  font-weight: bold;
+}
+
+.section__list--question {
+  text-decoration: none;
+}
+
+.section__elem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #505050;
+  padding: 0rem 0rem 1.4285714286rem 0rem;
+}
+
+.section__block {
+  height: 64.2857142857rem;
+  min-width: 80%;
+}
+
+.section__text {
+  height: 17.8571428571rem;
+  background-color: #a09f9e;
+  padding: 1.4285714286rem 0rem 1.4285714286rem 3.5714285714rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section__text--title {
+  font-weight: bold;
+}
+
+.section__text--item {
+  list-style-type: disc;
+}
+
+.section__text--list {
+  padding-left: 2.8571428571rem;
+  line-height: 1.6;
+}
+
+.section__icon {
+  margin: 2.1428571429rem 0rem 0rem 0rem;
+}
+
+.section__icon--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section__icon--item {
+  min-width: 10rem;
+  min-height: 11.4285714286rem;
+  background-color: #a09f9e;
+}
+
+.section__thumb--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section__thumb {
+  margin: 2.1428571429rem 0rem 0rem 0rem;
+}
+
+.section__thumb--item {
+  min-width: 10rem;
+  min-height: 11.4285714286rem;
+  background-color: #a09f9e;
+  margin-right: 46px;
+}
+.section__thumb--item:last-child {
+  margin-right: 0px;
+}
+
+.section__content {
+  margin: 2.1428571429rem 0rem 0rem 0rem;
+}
+
+.section__content--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section__content--item {
+  min-width: 30.7142857143rem;
+  min-height: 17.1428571429rem;
+  background-color: #a09f9e;
+}
+
+.section__content--text {
+  width: 30.7142857143rem;
+  line-height: 3;
+}
+
+.footer {
+  margin: 2.8571428571rem 0px 0px 0px;
+  height: 17.1428571429rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__item {
+  min-width: 21.4285714286rem;
+  height: 11.4285714286rem;
+  background-color: #505050;
+  margin-right: 40px;
+}
+.footer__item:last-child {
+  margin-right: 0px;
+}
+
+.footer__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 0px 0px 0px;
+}
+
+.controls__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 11.4285714286rem;
+}
+
+.footer__icon {
+  background-color: #505050;
+  height: 4.6428571429rem;
+  min-width: 25rem;
+}
